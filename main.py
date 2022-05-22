@@ -17,7 +17,7 @@ root.addshape('upmouth.gif')
 root.addshape('downmouth.gif')
 root.addshape('rightmouth.gif')
 root.addshape('leftmouth.gif')
-root.addshape('food.gif')
+root.addshape('food1.gif')
 root.addshape('body.gif')
 
 head = Turtle()
@@ -27,7 +27,7 @@ head.goto(0, 0)
 head.direction = 'stop'
 
 food = Turtle()
-food.shape("food.gif")
+food.shape("food1.gif")
 food.penup()
 food.goto(0, 150)
 
